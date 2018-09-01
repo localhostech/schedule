@@ -18,7 +18,7 @@ var schedule = {
 function getWeekDay(date) {
   var days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
 
-  return days[date.getDay()];
+  return days[date.getDay()+1];
 }
 
 var apiai = require('apiai');
